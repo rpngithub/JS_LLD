@@ -18,3 +18,11 @@ In debouncing, the function is only executed after a specific delay since the la
 ## Throttling
 Throttling is a technique that **limits the execution of a function** to once in every specified time interval. 
 In throttling, the function is executed at a fixed interval. Even if the triggering event occurs more frequently, the function is invoked according to the defined interval.
+
+## Reconciliation
+In React, reconciliation is the internal process of updating the actual Browser DOM to match the latest Virtual DOM tree.
+How the Process Works
+When a component’s state or props change, React triggers a three-step cycle: 
+1. Render: React creates a new Virtual DOM tree representing the updated UI.
+2. Diffing: It compares the new tree with a "snapshot" of the previous one to identify differences.
+3. Commit: React applies only those specific differences to the actual DOM.
