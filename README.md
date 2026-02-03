@@ -21,8 +21,9 @@ In throttling, the function is executed at a fixed interval. Even if the trigger
 
 ## Reconciliation
 In React, reconciliation is the internal process of updating the actual Browser DOM to match the latest Virtual DOM tree.
-How the Process Works
+
+**How the Process Works**
 When a component’s state or props change, React triggers a three-step cycle: 
-1. Render: React creates a new Virtual DOM tree representing the updated UI.
-2. Diffing: It compares the new tree with a "snapshot" of the previous one to identify differences.
-3. Commit: React applies only those specific differences to the actual DOM.
+1. **Render:** React creates a new Virtual DOM tree representing the updated UI.
+2. **Diffing:** It compares the new tree with a "snapshot" of the previous one to identify differences.
+3. **Commit:** React applies only those specific differences to the actual DOM.
