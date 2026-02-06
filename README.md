@@ -11,6 +11,9 @@ This could be user interactions like clicks, key presses, or page loading.
 ## Event handling
 Event handling in JavaScript refers to the **process of writing code to respond to events**. This involves attaching event listeners to specific elements in the DOM (Document Object Model) and defining functions that are executed when the specified event occurs. Event handling allows developers to create interactive and dynamic web experiences.
 
+## Event bubbling
+Is a mechanism where an event triggered on a nested (child) element propagates upward through its ancestors in the DOM hierarchy, all the way to the root of the document
+
 ## Debouncing
 Debouncing is a technique that **delays the execution of a function** until the user stops performing a certain action for a specified amount of time.
 In debouncing, the function is only executed after a specific delay since the last event's occurrence.
